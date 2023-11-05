@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- Loader -->
-    <!-- <section class="loader">
+     <section class="loader">
       <section class="paper_man_wrapper">
         <section class="paper_man">
           <section class="paper_man_body part">
@@ -45,7 +45,7 @@
           </section>
         </section>
       </section>
-    </section> -->
+    </section>
 
     <!-- Header -->
     <header class="header">
@@ -53,8 +53,8 @@
         <div class="header__content">
           <h2>Central Intellegance</h2>
           <div class="btn__group">
-            <button class="button arrow">Read more</button>
-            <button class="button phone">Contact Us</button>
+            <button data-modal class="button arrow">Read more</button>
+            <button data-modal class="button phone">Contact Us</button>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
           </div>
 
           <!-- 2 -->
-          <!-- <div class="tabcontent">
+           <div class="tabcontent">
             <img src="img/tabs/2.jpg" alt="comedy" />
             <div class="tabcontent__descr">
               Comedy (from the Greek: κωμῳδία, kōmōdía) is a genre of fiction
@@ -110,10 +110,10 @@
               against each other in an amusing agon or conflict. Northrop Frye
               depicted these two opposing sides as a "Society of Youth".
             </div>
-          </div> -->
+          </div>
 
           <!-- 3 -->
-          <!-- <div class="tabcontent">
+           <div class="tabcontent">
             <img src="img/tabs/3.jpg" alt="documentary" />
             <div class="tabcontent__descr">
               A documentary film or documentary is a non-fictional
@@ -132,10 +132,10 @@
               truthful to their vision of the world without intentionally
               misrepresenting a topic.
             </div>
-          </div> -->
+          </div> 
 
           <!-- 4 -->
-          <!-- <div class="tabcontent">
+           <div class="tabcontent">
             <img src="img/tabs/4.jpg" alt="sport" />
             <div class="tabcontent__descr">
               Sport pertains to any form of competitive physical activity or
@@ -151,10 +151,10 @@
               is between two sides, each attempting to exceed the other. Some
               sports allow.
             </div>
-          </div> -->
+          </div> 
 
           <!-- 5 -->
-          <!-- <div class="tabcontent">
+           <div class="tabcontent">
             <img src="img/tabs/5.jpg" alt="fantastic" />
             <div class="tabcontent__descr">
               The fantastic requires the fulfillment of three conditions. First,
@@ -168,7 +168,7 @@
               reader identifies himself with the character. Third, the reader
               must adopt a certain attitude with regard to the text: he will
               reject allegorical as well as "poetic" interpretations
-            </div> -->
+            </div> 
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@
             class="order__input"
           />
           <img src="icons/right.svg" alt="right" />
-          <button class="button phone order_btn">Contact Us</button>
+          <button data-modal class="button phone order_btn">Contact Us</button>
         </form>
       </div>
     </div>
@@ -266,42 +266,6 @@
       <h2 class="title">Our Menu</h2>
       <div class="menu__field">
         <div class="container">
-          <div class="menu__item">
-            <img src="img/tabs/1.png" alt="vegy" />
-            <h3 class="menu__item-subtitle">Plan "Usual"</h3>
-            <div class="menu__item-descr">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditate beatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.
-            </div>
-            <div class="menu__item-divider"></div>
-            <div class="menu__item-price">
-              <div class="menu__item-cost">Price:</div>
-              <div class="menu__item-total"><span>$10</span> month</div>
-            </div>
-          </div>
-          <div class="menu__item">
-            <img src="img/tabs/2.jpg" alt="elite" />
-            <h3 class="menu__item-subtitle">Plan “Premium”</h3>
-            <div class="menu__item-descr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquid molestiae, sit eveniet, tempora ipsum quaerat recusandae sapiente doloremque corporis dolores quas consectetur ut labore distinctio libero reiciendis harum sequi?
-            </div>
-            <div class="menu__item-divider"></div>
-            <div class="menu__item-price">
-              <div class="menu__item-cost">Price:</div>
-              <div class="menu__item-total"><span>$15</span> month</div>
-            </div>
-          </div>
-          <div class="menu__item">
-            <img src="img/tabs/3.jpg" alt="post" />
-            <h3 class="menu__item-subtitle">Plan "VIP"</h3>
-            <div class="menu__item-descr">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus natus nobis minus corporis atque enim vitae, modi eligendi commodi itaque voluptatum ipsum. Nemo reiciendis, id rem dolorum rerum consequuntur eos.
-            </div>
-            <div class="menu__item-divider"></div>
-            <div class="menu__item-price">
-              <div class="menu__item-cost">Price:</div>
-              <div class="menu__item-total"><span>$20</span> month</div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -349,7 +313,7 @@
       <div class="modal__dialog">
         <div class="modal__content">
           <form action="#">
-            <div class="modal__close">&times;</div>
+            <div data-close class="modal__close">&times;</div>
             <div class="modal__title">
               Мы свяжемся с вами как можно быстрее!
             </div>
@@ -372,6 +336,6 @@
         </div>
       </div>
     </div>
-    
+    <script src="js/script.js"></script>
   </body>
 </html>
