@@ -1,0 +1,92 @@
+{
+  "menu": [
+    {
+      "img": "img/tabs/1.png",
+      "altimg": "vegy",
+      "title": "Plan 'Ususal'",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquid molestiae, sit eveniet, tempora ipsum quaerat recusandae sapiente doloremque corporis dolores quas consectetur ut labore distinctio libero reiciendis harum sequi?",
+      "price": "10"
+    },
+    {
+      "img": "img/tabs/2.jpg",
+      "altimg": "elite",
+      "title": "Plan 'Premium'",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquid molestiae, sit eveniet, tempora ipsum quaerat recusandae sapiente doloremque corporis dolores quas consectetur ut labore distinctio libero reiciendis harum sequi?",
+      "price": "15"
+    },
+    {
+      "img": "img/tabs/3.jpg",
+      "altimg": "post",
+      "title": "Plan 'VIP'",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquid molestiae, sit eveniet, tempora ipsum quaerat recusandae sapiente doloremque corporis dolores quas consectetur ut labore distinctio libero reiciendis harum sequi?",
+      "price": "20"
+    }
+  ],
+  "request": [
+    {
+      "name": "Rustam",
+      "phone": "+998944900749",
+      "id": 1
+    },
+    {
+      "name": "Rustamjon",
+      "phone": "+998944900749",
+      "id": 2
+    },
+    {
+      "name": "Rustamjon",
+      "phone": "+998944900749",
+      "id": 3
+    },
+    {
+      "name": "asad",
+      "phone": "+998944999053",
+      "id": 4
+    },
+    {
+      "name": "Rustamjon",
+      "phone": "+998944999053",
+      "id": 5
+    },
+    {
+      "name": "bekmurod",
+      "phone": "945876525",
+      "id": 6
+    },
+    {
+      "name": "davrom",
+      "phone": "5545454",
+      "id": 7
+    },
+    {
+      "name": "iokmdf",
+      "phone": "ferfreg",
+      "id": 8
+    },
+    {
+      "name": "Rustamjon",
+      "phone": "+998944900749",
+      "id": 9
+    },
+    {
+      "name": "Rustam",
+      "phone": "5545454",
+      "id": 10
+    },
+    {
+      "name": "Rustamjon",
+      "phone": "5545454",
+      "id": 11
+    },
+    {
+      "name": "Rustamjon",
+      "phone": "5545454",
+      "id": 12
+    },
+    {
+      "name": "nkjbkjbj132134445454511",
+      "phone": "+998944999053",
+      "id": 13
+    }
+  ]
+}

@@ -656,6 +656,12 @@ section {
   -webkit-animation: shake3 1000ms -900ms ease-in-out infinite;
   animation: shake3 1000ms -900ms ease-in-out infinite;
 }
+.show {
+  display: block;
+}
+.hide{
+  display: none;
+}
 
 @-webkit-keyframes shake1 {
   0% {
